@@ -11,7 +11,7 @@
 
 #define NUM_THREADS 10000
 #define REQUESTS_PER_THREAD 7000000
-#define SERVER_PORT 443
+#define SERVER_PORT 80 // Define the server port number. Typically port 80 for HTTP, 443 for HTTPS.
 
 // Link against ws2_32.lib when using gcc
 #pragma comment(lib, "ws2_32")
